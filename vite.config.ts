@@ -3,5 +3,8 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/testTable/', // <-- путь к репозиторию на GitHub Pages
+  base: '/testTable/',
+  build: {
+    outDir: 'build' // теперь сборка будет в папку build
+  }
 })
