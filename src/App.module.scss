@@ -1,10 +1,13 @@
 .app {
   width: 90%;
-  max-width: 1920px; // ограничим ширину, чтобы не расползалось
-  height: 100%;
+  max-width: 1920px;
   margin: 0 auto;
+  position: relative;
 
   & .button{
+    top: 95.5%;
+    left: 1%;
+    position: absolute;
     display: inline-block;
     padding: 10px 18px;
     font-size: 14px;
@@ -24,12 +27,6 @@
     &:active {
       background: #1d4ed8;
       transform: scale(0.97);
-    }
-
-    &:disabled {
-      background: #9ca3af;
-      cursor: not-allowed;
-      box-shadow: none;
     }
 
   }

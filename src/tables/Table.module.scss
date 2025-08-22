@@ -3,7 +3,6 @@
   background: #f9fafb;
   border-radius: 12px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-
   font-family: 'Inter', 'Roboto', 'Segoe UI', sans-serif;
   color: #111827;
 
@@ -17,7 +16,7 @@
 
   .search {
     width: 100%;
-    padding: 10px 0px;
+    padding: 10px 10px;
     margin-bottom: 15px;
     border: 1px solid #d1d5db;
     border-radius: 8px;
@@ -42,7 +41,6 @@
 
     .thead {
       background: #f3f4f6;
-
       .tr {
         .th {
           text-align: left;
@@ -59,9 +57,7 @@
     .tbody {
       .tr {
         transition: background 0.2s;
-
         .checkbox {
-          position: relative;
           cursor: pointer;
           gap: 8px;
           font-size: 14px;
@@ -81,23 +77,7 @@
               background: #3b82f6;
               border-color: #3b82f6;
             }
-
-            &:checked::after {
-              position: absolute;
-              font-size: 12px;
-              color: white;
-              left: 3px;
-              top: 0;
-            }
           }
-        }
-
-        &:nth-child(even) {
-          background: #f9fafb;
-        }
-
-        &:hover {
-          background: #e0f2fe;
         }
 
         .td {

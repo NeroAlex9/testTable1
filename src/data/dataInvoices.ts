@@ -87,7 +87,7 @@ export const invoicesData: Invoice[] = [
         executorINN: '7790123456',
         paymentPurpose: 'Оплата курсов профессиональной переподготовки "Анализ данных и машинное обучение". Программа включает практические занятия и итоговую аттестацию'
     },{
-        number: 'INV-001',
+        number: 'INV-006',
         type: 'обучение',
         examinee: 'Петров Иван Сергеевич',
         qualification: 'WEB-DEV',
@@ -99,7 +99,7 @@ export const invoicesData: Invoice[] = [
         paymentPurpose: 'Оплата обучения по курсу "Веб-разработка". Группа WD-24-01. Период обучения: 15.01.2024-15.04.2024'
     },
     {
-        number: 'INV-002',
+        number: 'INV-007',
         type: 'пошлина',
         examinee: 'Сидорова Мария Петровна',
         qualification: 'EXAM-FEE',
@@ -111,7 +111,7 @@ export const invoicesData: Invoice[] = [
         paymentPurpose: 'Оплата государственной пошлины за проведение квалификационного экзамена. Дата экзамена: 20.01.2024'
     },
     {
-        number: 'INV-003',
+        number: 'INV-008',
         type: 'обучение',
         examinee: 'Кузнецов Андрей Викторович',
         qualification: 'QA-ENG',
@@ -122,7 +122,7 @@ export const invoicesData: Invoice[] = [
         executorINN: '7756789012',
         paymentPurpose: 'Оплата программы повышения квалификации "Тестирование программного обеспечения". Продолжительность: 72 академических часа'
     },{
-        number: 'INV-001',
+        number: 'INV-009',
         type: 'обучение',
         examinee: 'Петров Иван Сергеевич',
         qualification: 'WEB-DEV',
@@ -134,7 +134,7 @@ export const invoicesData: Invoice[] = [
         paymentPurpose: 'Оплата обучения по курсу "Веб-разработка". Группа WD-24-01. Период обучения: 15.01.2024-15.04.2024'
     },
     {
-        number: 'INV-002',
+        number: 'INV-010',
         type: 'пошлина',
         examinee: 'Сидорова Мария Петровна',
         qualification: 'EXAM-FEE',
@@ -146,7 +146,7 @@ export const invoicesData: Invoice[] = [
         paymentPurpose: 'Оплата государственной пошлины за проведение квалификационного экзамена. Дата экзамена: 20.01.2024'
     },
     {
-        number: 'INV-003',
+        number: 'INV-011',
         type: 'обучение',
         examinee: 'Кузнецов Андрей Викторович',
         qualification: 'QA-ENG',

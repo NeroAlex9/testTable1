@@ -5,14 +5,14 @@ interface TProps<T> {
     name: string;
     nameColumn: string[];
     data: T[];
-    rowsPerPage?: number; // количество строк на странице
+    rowsPerPage?: number;
 }
 
 const Table = <T extends object>({
      name,
      nameColumn,
      data,
-     rowsPerPage = 5
+     rowsPerPage = 4
     }: TProps<T>) => {
     const [currentPage, setCurrentPage] = useState(1);
 

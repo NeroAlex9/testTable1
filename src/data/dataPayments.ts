@@ -94,7 +94,7 @@ export const paymentsData: Payment[] = [
         paymentComment: 'Оплата курсов профессиональной переподготовки',
         accountantComment: 'Оплата подтверждена'
     },{
-        number: '001',
+        number: '006',
         createDate: '2024-01-15',
         type: 'электронный',
         amount: "12500",
@@ -107,7 +107,7 @@ export const paymentsData: Payment[] = [
         accountantComment: 'Проведен, документы подписаны'
     },
     {
-        number: '002',
+        number: '007',
         createDate: '2024-01-16',
         type: 'наличный',
         amount: "8500",
@@ -120,7 +120,7 @@ export const paymentsData: Payment[] = [
         accountantComment: 'Принято к учету'
     },
     {
-        number: '003',
+        number: '008',
         createDate: '2024-01-17',
         type: 'электронный',
         amount: "15600",
