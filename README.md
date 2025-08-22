@@ -11,7 +11,7 @@
 ### 1. Клонировать репозиторий
 ```bash
 git clone https://github.com/NeroAlex9/testTable.git
-cd testTable
+cd testTable1
 npm install
 npm run dev
 Откроется в браузере: http://localhost:5173
